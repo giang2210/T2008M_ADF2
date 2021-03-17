@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="583.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment.s1.Student">
+   <children>
+      <TextArea fx:id="ds" layoutX="34.0" layoutY="56.0" prefHeight="268.0" prefWidth="297.0" />
+      <TextField fx:id="name" layoutX="374.0" layoutY="63.0" promptText="tên" />
+      <TextField fx:id="age" layoutX="374.0" layoutY="134.0" prefHeight="31.0" prefWidth="104.0" promptText="tuổi" />
+      <TextField fx:id="mark" layoutX="374.0" layoutY="207.0" prefHeight="31.0" prefWidth="104.0" promptText="điểm" />
+      <Button layoutX="386.0" layoutY="263.0" mnemonicParsing="false" onAction="#submit" text="click" textFill="#221fe1" />
+      <Button layoutX="386.0" layoutY="324.0" mnemonicParsing="false" text="sắp xếp" textFill="#d01d1d" />
+      <Text fx:id="txtValidate" layoutX="371.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="170.6708984375" />
+   </children>
+</Pane>
